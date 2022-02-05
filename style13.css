@@ -476,6 +476,7 @@ footer ul
     
 }
 /*tablette*/
+
 @media screen and (max-width: 992px) 
 {
     body
@@ -538,7 +539,7 @@ footer ul
     }
     .nav
     {
-        /*flex-direction: column;*/
+
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 10px;
@@ -550,7 +551,7 @@ footer ul
     }
     .container1
     {
-       /* width: 100%;*/
+
         flex-direction: column-reverse;
     }
     .titre-populaire
@@ -600,7 +601,9 @@ footer ul
         height: auto;
     }
 }
+
 /*gsm*/
+
 @media screen and (max-width: 768px) 
 {
     body
@@ -663,10 +666,7 @@ footer ul
     {
         flex-direction: column;
     }
-    /*.bloc-Activités >h3
-    {
-        justify-content: left;
-    }*/
+
     .box-vp
     {
         height:200px;
@@ -715,9 +715,5 @@ footer ul
         width: 100%;
         height: 70%;}
 
-    /*.box-vp
-    {
-        align-items: none;
-    }*/
-}
 
+}
