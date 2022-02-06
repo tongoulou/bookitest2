@@ -627,11 +627,14 @@ footer ul
 	color: white;
 	border: none;
 	border-radius: 15px 15px 15px 15px;
-	padding: 15px;
+	padding: 16px;
+    position:absolute;
+    right: 40px;
 }
     #loupe
     {
         display:block;
+        
     }
     #footer 
     {
