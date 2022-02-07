@@ -622,7 +622,7 @@ footer ul
     header
     {
         
-            margin-left: 25px
+            margin: 10px
         
     }
     #recherche
@@ -662,7 +662,7 @@ footer ul
         flex-direction: column;
     }
     .icone-chart {
-       margin: 20px 20px 20px 200px;
+       margin: 20px 0px 20px 100px;
     }
     .bloc-populaire
     {
