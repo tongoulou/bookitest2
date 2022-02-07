@@ -136,6 +136,7 @@ nav li
 }
 .filtres 
 { 
+    
 	display:flex;
 	cursor: pointer;
 
@@ -328,6 +329,7 @@ nav li
 {
 	width: 100%;
     margin-right: 0px;
+    padding: 10px;
 }
 .bloc-Activités
 {
@@ -373,7 +375,7 @@ width: 300px;
 {
 	display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 20px;
     background-color: white;
 	width: 300px;
@@ -487,6 +489,7 @@ footer ul
 {
     body
     {
+        width: 93%;
         height: auto;
     }
     header
@@ -586,6 +589,10 @@ footer ul
         margin:5px;
         padding: 0;
     }
+    #afficher
+    {
+        margin: 20px;
+    }
     .container2
     {
         width: 99%;
@@ -594,6 +601,10 @@ footer ul
     .bloc-Activités > a {
         width: 300px;
         margin: 10px;
+    }
+    .box-double
+    {
+        justify-content: space-around;
     }
     footer ul
     {
