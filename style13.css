@@ -633,39 +633,10 @@ footer ul
     header
     {
         
-            margin: 10px
+        margin: 10px
         
-    }
-    #recherche
-    {
-        display: none;
-    }
-    nav 
-    {
-        margin: 10px;
     }
     
-    .rech
-{
-    display: flex;
-	background-color: #0065fc;
-	color: white;
-	border: none;
-	border-radius: 15px 15px 15px 15px;
-	padding: 16px;
-    position:absolute;
-    right: 45px;
-}
-    #loupe
-    {
-        display:block;
-        
-    }
-    #filtres 
-    {
-        padding: 10px;
-
-    }
     #footer 
     {
         width: 100%;
@@ -747,6 +718,40 @@ footer ul
     .box-ndg > img {
         width: 100%;
         height: 70%;}
+    }
 
+@media screen and (max-width: 400px)
+{
+#recherche
+
+    {
+        display: none;
+    }
+    nav 
+    {
+        margin: 10px;
+    }
+    
+    .rech
+{
+    display: flex;
+	background-color: #0065fc;
+	color: white;
+	border: none;
+	border-radius: 15px 15px 15px 15px;
+	padding: 16px;
+    position:absolute;
+    right: 45px;
+}
+    #loupe
+    {
+        display:block;
+        
+    }
+    #filtres 
+    {
+        padding: 10px;
+
+    }
 
 }
