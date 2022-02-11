@@ -29,7 +29,7 @@ header ul
 	list-style-type: none;
 	display: flex;
 	justify-content:flex-end;
-	padding: 25px 0px 0px 50 px;
+	padding: 25px 0px 0px 50px;
 }
 .actd
 {
@@ -70,7 +70,7 @@ h1 {
 	display:flex;
 	justify-content: center;
 	align-items:center;
-	width: 30 barre en hat px;
+	
 	background-color:#F2F2F2;
 	margin:0;
 	padding: 16px; 
@@ -78,9 +78,10 @@ h1 {
 }
 .lycos
 {
-        border: colors #F2F2F2;
+    border-top: solid 1px #F2F2F2;
+    border-color: #f2f2f2 transparent;
 	margin:0;
-	padding:13;
+	padding:13px;
     height: 45px;
     width:260px;
 }
@@ -119,7 +120,7 @@ nav{
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 0;
-	border:solid 1px #F2F2F2 transparent;
+	border:solid 1px #F2F2F2;
 	border-radius:30px;
 	padding:10px 10px 10px 0px;
 	margin-right: 35px;  
@@ -137,9 +138,9 @@ nav li
 	display:flex;
 	align-items: center;
 }
-.filtres 
+.Filtres 
 { 
-    
+    align-items: center;
 	display:flex;
 	cursor: pointer;
 
@@ -172,10 +173,7 @@ nav li
 {
     color: grey;
 }
-/*main
-{
-    margin: 0px;
-}*/
+
 .container1
 {
   display: flex;
@@ -489,6 +487,10 @@ footer ul
 	display: flex;
     justify-content:left;
     
+}
+footer > li> a
+{
+    margin-top:20px;
 }
 /*tablette*/
 
