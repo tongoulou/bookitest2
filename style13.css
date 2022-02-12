@@ -328,6 +328,7 @@ nav li
 
   margin: 75px 0 0 50PX;
   margin-right: 10px;
+  margin-bottom: 60px;
   
 }
 .container2 > h3
@@ -467,30 +468,36 @@ width: 300px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;  
 }
+/* ----------------------FOOTER----------------------*/
+
 footer
 {
-    background-color: #F2F2F2;
-    margin:50px 0 0 0;
-    max-width: 1450px;
-    height: auto;
-}
-footer ul
-{
-	font-family:raleway;
-	list-style-type: none;
-	margin-right:190px;
+    background-color: #f2f2f2;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
 
-#footer
+.footer
 {
-    
-	display: flex;
-    justify-content:left;
-    
+    padding: 2em;
+    margin-right: 130px;
 }
-#footer >ul> a
+
+.footer > li > a 
 {
-    margin-top:20px;
+    text-decoration: none;
+}
+
+.footer > p > a:visited
+{
+    color: black;
+}
+
+.footer > h3
+{
+    display:flex;
+    justify-content: flex-start;
 }
 /*tablette*/
 
@@ -610,6 +617,7 @@ footer ul
     {
         width: 99%;
         margin:75px 0 0 0;
+        margin-bottom: 60px;
     }
     .bloc-Activités > a {
         width: 300px;
